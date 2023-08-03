@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LatihanDiceGame {
+public class AplikasiDiceGame {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int dadu, totalPoint;

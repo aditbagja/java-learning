@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LatihanCalculateMoney {
+public class AplikasiPenghitunganUang {
     public static void main(String[] args) {
         String name;
         int monday, tuesday, wednesday, thursday, friday, saturday, sunday, total;

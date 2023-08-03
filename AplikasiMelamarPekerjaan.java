@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LatihanJobVacancy {
+public class AplikasiMelamarPekerjaan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

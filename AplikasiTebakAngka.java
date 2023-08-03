@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LatihanTebakAngka {
+public class AplikasiTebakAngka {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -22,12 +22,12 @@ public class LatihanTebakAngka {
             } else {
                 int jarak = Math.abs(tebakan - jawaban);
                 String pesan = "";
-                if (jarak >= 3 && jarak <= 3) {
-                    pesan = "cold";
+                if (jarak >= 1 && jarak <= 1) {
+                    pesan = "hot";
                 } else if (jarak >= 2 && jarak <= 2) {
                     pesan = "warm";
-                } else if (jarak >= 1 && jarak <= 1) {
-                    pesan = "hot";
+                } else {
+                    pesan = "cold";
                 }
                 System.out.println(pesan);
             }
